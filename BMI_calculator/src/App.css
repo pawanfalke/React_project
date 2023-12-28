@@ -1,0 +1,59 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+.app-main-div{
+  background-color: aqua;
+  padding: 10%;
+  height:400px ;
+  width: 400px;
+}
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.heading{
+  background-color: darkblue;
+}
+.app-sub-div1{
+  background-color: white;
+  color: black;
+  padding: 10%;
+}
+
+.height-range,.weight-range{
+  width: 75%;
+}
+.input-box{
+  height: 100%;
+  width: 10%;
+  color: white;
+  background-color: darkblue;
+  border-radius: 10%;
+}
+
+
+
